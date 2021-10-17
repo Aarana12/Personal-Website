@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wdth,wght@100,300;85.6,357&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wdth,wght@100,300;85.6,357&family=Open+Sans&display=swap');
+/* This is where the all the decoration goes! */
+
+
+html {
+    background-color: black;
+}
+
+/* Page Body Styles */
+
+body {
+    background-color: black;
+    font-family: "Noto Sans Mono";
+    color: white;
+}
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontal{
+    background-color: darkgreen;
+}
+
+nav.horizontal a {
+    font-family: "Noto Sans Mono";
+    font-size: 1em;
+    line-height: 1.2em;
+    text-align: center;
+    color: white;
+    height: 10px;
+}
+
+nav.horizontal a:hover,
+nav.horizontal a:active {
+    background-color: lightgreen;
+}
+
+/* Main Styles */
+
+.main-text {
+    font-size: 1.2em;
+}
+.main-classes  {
+    background-color: lightpink;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.main-classes li {
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+.main-classes h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px white solid;
+}
+
+/* hobby Styles */
+
+.hobby-heading {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 2em;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.hobby-heading-2 {
+    font-size: 1em;
+}
+
+.text-secondary {
+    padding: 10px;
+}
+
+.icons {
+    padding: 20px;
+    width: 40%;
+}
+
+footer {
+    color: white;
+    background-color: darkgreen;
+    font-size: 0.9em;
+    padding: 20px 0px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/* Project Styles */
+
+.project .card {
+    background-color: darkslategray;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px dimgray;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.2s ease-in;
+}
+
+.project .flex {
+    flex-wrap: wrap;
+}
+
+.projects .card:hover {
+    transform: translateY(-15px);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.project {
+    padding: 30px;
+}
+
+.work {
+    text-align: center;
+    padding: 20px;
+    width: 25%;
+}
+
+.project h3 {
+    padding: 30px;
+}
+
+/* About Styles */ 
+
+.about p {
+    line-height: 30px;
+    width: 800px;
+    margin: 50px 10px 60px 100px;
+}
+.about h2 {
+    text-align: left;
+}
+
+.resume h2 {
+    margin-bottom: 30px;
+}
+
+.resume .card {
+    background-color: rgb(133, 91, 43);
+    padding: 10px;
+    overflow: auto;
+    border-radius: 10px;
+    height: auto;
+}
+
+.resume {
+    padding: 30px;
+}
+
+.resume h1 {
+    text-align: center;
+}
+
+.resume h2 {
+    font-size: 2em;
+    padding: 10px;
+    text-align: left;
+}
+
+.resume h3 {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.resume p {
+    text-align: center;
+}
+
+.resume li {
+    padding: 10px;
+}
+
+.resume .grid-5 {
+    grid-template-columns: repeat (1, 1fr);
+    padding: 10px;
+}
+
+/* Letter Styles*/
+
+article {
+    background-color: darkslategrey;
+    border-radius: 50px;
+    width: 1000px;
+    padding: 50px;
+    margin: 50px 10px 50px 50px;
+}
